@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CrediEco.Data;
 using CrediEco.Models;
 
-namespace CrediEco.Controllers
+namespace CrediEco.Controller
 {
     [Route("api/[controller]")]
     [ApiController]

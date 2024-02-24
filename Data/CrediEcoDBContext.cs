@@ -9,7 +9,9 @@ namespace CrediEco.Data
         {
 
         }
-        public DbSet<CrediEco.Models.Productos> Productos { get; set; } = default!;
-        public DbSet<CrediEco.Models.Clientes> Clientes { get; set; } = default!;
+        public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<Pedidos> Pedidos { get; set; }
+        public DbSet<PedidoDetalle> DetalleDelPedido { get; set; }
+        public DbSet<Productos> Productos { get; set; }
     }
 }
